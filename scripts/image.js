@@ -3,10 +3,10 @@ let topPosition = 50;
 let leftPosition = 50;
 
 // Event listener to detect arrow key presses
-window.addEventListener('keydown', function(event) {
+window.addEventListener('keydown', function (event) {
   const step = 10; // Number of pixels to move the image
 
-  switch(event.key) {
+  switch (event.key) {
     case 'ArrowUp':
       topPosition -= step;
       break;

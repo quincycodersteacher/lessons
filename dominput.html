@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="./scripts/dominput.js"></script>
-  </head>
-  <body>
 
-    
-    <form>
-        <legend>Please select a background color:</legend>
-        <div>
-            <input type="radio" id="red" name="bgColor" value="red" checked />
-            <label for="red">Red</label>
-        </div>
-        <div>
-            <input type="radio" id="green"  name="bgColor" value="green" />
-            <label for="green">Green</label>
-        </div>
-        <div>
-            <input type="radio" id="blue"  name="bgColor" value="blue" />
-            <label for="blue">Blue</label>
-        </div>
-        <button type="button" onclick="changeBackground()">
-        Set background color</button>
-        <br/>
-        <br/>
-        <br/>  
-        <label for="url">Go to URL:</label>
-        <input type="text" id="url"><br/>
-        <button type="button" onclick="goToURL()">
-        Go to URL</button>
-        <br/>  
-        <br/>
-        <br/>
-        <br/>  
-        <p id="myText">This is some text.</p>
-        <label for="myTextInput">Change Text:</label>
-        <input type="text" id="myTextInput"><br/>
-        <button type="button" onclick="changeText()">
-        Change Text</button>
-        <br/>
-    </form>
+<head>
+  <script src="./scripts/dominput.js"></script>
+</head>
+
+<body>
 
 
-  </body>
+  <form>
+    <legend>Please select a background color:</legend>
+    <div>
+      <input type="radio" id="red" name="bgColor" value="red" checked />
+      <label for="red">Red</label>
+    </div>
+    <div>
+      <input type="radio" id="green" name="bgColor" value="green" />
+      <label for="green">Green</label>
+    </div>
+    <div>
+      <input type="radio" id="blue" name="bgColor" value="blue" />
+      <label for="blue">Blue</label>
+    </div>
+    <button type="button" onclick="changeBackground()">
+      Set background color</button>
+    <br />
+    <br />
+    <br />
+    <label for="url">Go to URL:</label>
+    <input type="text" id="url"><br />
+    <button type="button" onclick="goToURL()">
+      Go to URL</button>
+    <br />
+    <br />
+    <br />
+    <br />
+    <p id="myText">This is some text.</p>
+    <label for="myTextInput">Change Text:</label>
+    <input type="text" id="myTextInput"><br />
+    <button type="button" onclick="changeText()">
+      Change Text</button>
+    <br />
+  </form>
+
+
+</body>
+
 </html>
